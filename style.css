@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+  }
+
+  #menu{
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+  }
+
+  #menu li{
+    list-style: none;
+    display: inline-block;
+  }
+
+  #menu li a{
+    text-decoration: none;
+    position: relative;
+    color: #313131;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: sans-serif;
+    display: block;
+    overflow: hidden;
+    transition: 0.7s all;
+    padding: 14px 30px;
+    text-transform: uppercase;
+  }
+
+  #menu li a:before{
+    content: '';
+    width: 60px;
+    position: absolute;
+    border-bottom: 8px solid #313131;
+    bottom: 0;
+    right: 350px;
+    transition: 0.7s all;
+  }
+
+  #menu li a:hover:before{
+    right: 0;
+  }
+  
+  #imagens {
+    width: 900px;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  padding: 20px;
+  }
+}
